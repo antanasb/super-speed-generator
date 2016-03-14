@@ -13,13 +13,13 @@ const string COF = "SuperGreitis.txt";
 /*
 void read(const string CIF, string words[CMax], int & sw);
 void write(const string COF, string sSpeed[CMax], const int CLev);
-string biuldLine(string wLine[CWordsL], int n);
+string buildLine(string wLine[CWordsL], int n);
 string buildLev(string wLine[CWordsL]);
 void buildSS(string words[CMax], int & sw, string sSpeed[CMax]);
 */
 void read(const string, string*, int&);
 void write(const string, string*, const int);
-string biuldLine(string*, int);
+string buildLine(string*, int);
 string buildLev(string*);
 void buildSS(string*, int&, string*);
 
